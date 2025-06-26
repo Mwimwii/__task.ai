@@ -2,6 +2,18 @@
 
 ## For the Beautifully Disorganized Mind 🧠✨
 
+
+Hey I watched a certain video by a brilliant lad over here: https://www.youtube.com/watch?v=k25cYCxB_ns 
+
+Please check it out to understand the vision. It blew my mind even though I'm probably the last person to find out about all this.
+
+Before the `__agent` goes off I just wanted to create this to simply dump my daily notes to the `__memo.md` file and let the `__agent` do the rest.
+
+It began with writing a simple description about myself along with all the projects I had lined up which led to me realizing how much was on my plate 😅.
+
+
+// END 
+
 **Welcome!** If you're drowning in scattered thoughts, random notes, and endless to-do lists, you're in the right place. Task Master transforms your chaotic memos into an organized, intelligent workspace.
 
 **Originally designed for Obsidian** (the amazing note-taking app), but this template works with any markdown-based system, folder structure, or even just plain text files. Use it however works for your brain!
