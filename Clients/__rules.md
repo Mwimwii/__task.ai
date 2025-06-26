@@ -1,0 +1,6 @@
+- Auto-update client information from project files
+- Track client project status and milestones
+- Monitor payment status and invoicing
+- Maintain client communication history
+- Generate client reports and updates
+- Integrate with project and performance tracking

@@ -1,0 +1,8 @@
+- Auto-update performance metrics on every run
+- Calculate project completion rates from project status
+- Track team utilization from project assignments
+- Monitor task completion rates from daily tasks
+- Calculate revenue metrics from payment status
+- Generate weekly and monthly performance reports
+- Maintain historical performance data
+- Integrate with team and project dashboards

@@ -1,0 +1,7 @@
+- Auto-update team assignments from project files
+- Calculate team utilization from project workloads
+- Track collaboration requirements across projects
+- Monitor team member availability and status
+- Generate team coordination reports
+- Maintain team performance metrics
+- Integrate with project and performance dashboards

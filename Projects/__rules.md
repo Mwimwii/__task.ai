@@ -1,0 +1,7 @@
+- Auto-populate project structure from __start.md on first run
+- Create proper linking between projects and tasks
+- Maintain consistent folder structure with __home, __rules, __logs files
+- Generate task files for each project with linking anchors
+- Set up archive structures for completed work
+- Track project status and team assignments
+- Integrate with performance and team dashboards

@@ -1,0 +1,7 @@
+- Archive completed daily task lists when new day begins
+- Maintain all original links and references in archived tasks
+- Create project milestone archives when projects complete
+- Generate weekly and monthly performance summaries
+- Preserve task completion timestamps and status
+- Link archived tasks back to their original projects
+- Keep archive structure organized by date and type
