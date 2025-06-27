@@ -23,7 +23,7 @@ codex "Based on the __memo.md, update the workspace according to the rules."
 
 # Google Gemini CLI (non-interactive)
 gemini --prompt "Run the task.ai workflow. Ingest the new memo and update all relevant project files."
-
+```
 
 ## `__rules`
 - `__rules` are found in every folder and can be nested to apply rules to their children. This allows for granular control over how information is processed and lets you build complex, chained logic for your workflows.
