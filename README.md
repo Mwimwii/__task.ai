@@ -1,71 +1,31 @@
-# Task Master - Universal Workspace Template
+# __task.ai - AI Personal Workflow Engine
 
-## For the Beautifully Disorganized Mind 🧠✨
+## A lightweight, plain-text system for building and running your own automated workflows using natural language.
 
+Inspired by: https://www.youtube.com/watch?v=k25cYCxB_ns 
 
-Hey I watched a certain video by a brilliant lad over here: https://www.youtube.com/watch?v=k25cYCxB_ns 
+You write the rules in plain English, and an AI assistant executes them. It's a way to create your own tools for any task, from simple daily planning to complex workflows.
 
-Please check it out to understand the vision. It blew my mind even though I'm probably the last person to find out about all this.
-
-Before the `__agent` goes off I just wanted to create this to simply dump my daily notes to the `__memo.md` file and let the `__agent` do the rest.
-
-It began with writing a simple description about myself along with all the projects I had lined up which led to me realizing how much was on my plate 😅.
+## Getting Started - You can use any agent of your choice
 
 
-// END 
+1. **Initialize the`__start.md`**: Write down a small description of yourself, your goals and project you're working on. This is the starting point for the AI to build your project structure.
+2. **Open `__memo.md`**: These are the daily unstructured notes that provide data for the `Project` and `Tasks` folders. This file is monitored in every run
 
-**Welcome!** If you're drowning in scattered thoughts, random notes, and endless to-do lists, you're in the right place. Task Master transforms your chaotic memos into an organized, intelligent workspace.
+```bash
+mwila@os:projects/__task.ai$ claude -p "For the Fuel Tracking I would like the worskspace to perform risk assessment on fuel delivery"  
+```
 
-**Originally designed for Obsidian** (the amazing note-taking app), but this template works with any markdown-based system, folder structure, or even just plain text files. Use it however works for your brain!
+## `__rules`
+- `__rules` are found in every folder and can be nested to apply `__rules` to their children. This helps the us neatly defines how new information is treated in the project.
 
-## What This Does
-- **Captures your brain dumps** and turns them into actionable structure
-- **Links scattered thoughts** to actual projects and outcomes
-- **Archives your journey** so nothing gets lost
-- **Works with any AI** - Claude, ChatGPT, Gemini, or even just you!
-
-## Perfect For You If...
-- 📝 You have notes everywhere but can't find anything
-- 🤯 Your brain moves faster than your organization
-- 🔄 You start projects but lose track of progress
-- 💭 You have brilliant ideas that disappear into the void
-- 🎯 You want structure without rigid constraints
-
-## Getting Started (Really Simple!)
-1. **Just start writing** in `__memo.md` - dump everything there
-2. **Customize `__start.md`** with your actual projects (messy is fine!)
-3. **Let any AI assistant** help organize using the built-in rules
-4. **Watch your chaos become clarity** ✨
-
-## What Makes This Special
-- 🔗 **Smart Linking**: Your daily thoughts connect to bigger projects
-- 📚 **Never Lose Anything**: Complete archive system for your journey
-- 🤖 **AI Agnostic**: Works with Claude, ChatGPT, Gemini, or any assistant
-- 🔄 **Flexible Structure**: Adapts to how YOUR mind works
-- 🎯 **Memo-Driven**: Start with brain dumps, end with organized action
-
-## Your Workspace Will Have
-- **Daily Memos**: Where you dump everything (the magic starts here!)
-- **Project Structure**: Auto-organized from your actual work
-- **Task Linking**: Connect daily thoughts to bigger goals
-- **Archive System**: Your complete journey, searchable and linked
-- **Performance Tracking**: See your progress without pressure
+## Folders Included 
+- **Daily Notes**
+- **Projects**
+- **Task**
+- **Task Archive**
+- **Performance Review**
+- **Clients Management**
 
 ## Works Everywhere
-This template works with:
-- **Obsidian** - Perfect for linking and graph view (recommended!)
-- **Notion** - Great for databases and collaboration
-- **Roam Research** - Excellent for networked thought
-- **Logseq** - Privacy-focused and local
-- **Any Markdown Editor** - VS Code, Typora, Mark Text, etc.
-- **Plain Text Files** - Even just folders on your computer!
-
-## AI Assistant Friendly
-Compatible with any AI:
-- **Claude (Anthropic)** - Excellent at structure and analysis
-- **ChatGPT (OpenAI)** - Great at creative organization
-- **Gemini (Google)** - Strong at connecting ideas
-- **Any AI Assistant** - The structure is universal
-- **Just You** - Even without AI, the system guides organization
-
-#taskmaster #template #universal #disorganized #memos #structure
+This template works with any markdown editor (**Obsidian**, **Notion**, **Roam Research**, **Plain Text Files** etc.)
